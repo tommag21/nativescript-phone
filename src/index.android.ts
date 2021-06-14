@@ -1,5 +1,5 @@
 import { hasPermission, requestPermission } from 'nativescript-permissions';
-import { Application } from '@nativescript/core';
+import * as Application from "tns-core-modules/application";
 import { LocalEventEmitter } from './LocalEventEmitter';
 import { SMSEvents, DialEvents } from './interfaces';
 
