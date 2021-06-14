@@ -1,4 +1,4 @@
-import { Frame } from '@nativescript/core';
+import * as Frame from "tns-core-modules/ui/frame";
 import { DialEvents, SMSEvents } from './interfaces';
 import { LocalEventEmitter } from './LocalEventEmitter';
 export { DialEvents, SMSEvents } from './interfaces';
